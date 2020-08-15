@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Metamorphous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background: url(https://yeoldepizzaparlor.s3.us-east-2.amazonaws.com/httpswallpapercave.comwpwp2021760.jpg);
+    background-repeat: no-repeat;
+    background-size: 2000px, 2000px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*navigation*/
+.nav {
+    display: inline-flex;
+    list-style: none;
+    color: #270F0F;
+    padding: 5px;
+}
+
+.list_item {
+    font-size: 30px;
+    text-shadow: 0px 1px 1px;
+    padding-right: 10px;
+}
+
+.list_item1 {
+    font-size: 12px;
+    padding: 5px;
+    text-shadow: 0px 1px 1px;
+}
+
+.nav_link {
+    text-decoration: none;
+    color: #270F0F;
+    mix-blend-mode: color-burn;
+    font-family: 'Metamorphous', cursive;
+    text-shadow: 0px 1px 1px;
+    cursor: grab;
+}
+
+/*intro image*/
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.intro_pizza {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+
+
+/*intro text*/
+.intro {
+    display: flexbox;
+}
+
+.intro_text {
+    color: #270F0F;
+    font-size: 20px;
+    word-spacing: 3px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+
+
+/*About Us*/
+.about {
+    display: flexbox;
+    
+}
+
+.about_img{
+    padding-top: 5px;
+    padding-bottom: 15px;
+    padding-right: 5px;
+}
+
+.about_p {
+    text-align: center;
+    line-height: 1.5;
+}
+
+
+
+/*Menu Page*/
+.menu_title {
+    text-align: center;
+    font-size: 50px;
+    mix-blend-mode: color-burn;
+    text-shadow: 0px 1px 1px;
+}
+
+.menu_section {
+    margin-top: 1em;
+}
+
+.menu-item {
+    mix-blend-mode: color-burn;
+    text-shadow: 0px 1px 1px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+
+.price {
+    float: inline-flex;
+    font-size: 1rem;
+    padding-left: 30px;
+    text-decoration: none ;
+}
+
+
+.menu-item-title {
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 0px 1px 1px;
+    padding-bottom: 10px;
+}
+
+.menu-item-description {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.button  {
+    background-color: darkred;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 35px 35px;
+    border: none;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+
+
+
+/*Footer*/
+footer {
+    display: flex;
+    background-color: #380B0B;
+}
+
+.foot_list {
+    display: inline-flex;
+    list-style: none;
+    letter-spacing: 5px;
+    font-size: 20px;
+    padding-right: 5px;
+}
+
+.foot_p {
+    color: #fff;
+    display: inline-block;
+    letter-spacing: 3px;
+    padding-top: 2px;
+}
+
+@media (max-width: 768px) {
+	body {
+		height: 30vh;
+	}
+
+}
